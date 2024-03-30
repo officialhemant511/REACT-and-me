@@ -1,9 +1,11 @@
 
 import Show from "./hema"
 function App() {
+  const username = "Hemant with chai"
   return (
     <>
-    <h1>Hemant is a good boy | Hemant Bhatt</h1>
+    {/* Here username with this bracket is evaluated expression */}
+    <h1>Hemant is a good boy | Hemant Bhatt and {username}</h1>
     <Show/>
     </>
   )
