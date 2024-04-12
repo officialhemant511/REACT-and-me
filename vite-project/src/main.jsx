@@ -12,7 +12,7 @@ import App from './App.jsx'
 // }
 
 // custom react 
-/*
+
 const ReactElement = {
   type: 'a',
   props: {
@@ -21,22 +21,22 @@ const ReactElement = {
   },
   children: 'click me'
 };
-*/
+
 
 // const ReactElement = (
 //     <a href="www.google.com">click me</a>
 // )
 
-const anotheruser = " CHai  h  Hemant ki"
-const ReactElement = React.createElement(
-  'a',
-  {
-    href: 'https://google.com',
-    target: '_blank'
-  },
-  'click me | Hemant hu bhai',
-  anotheruser
-)
+// const anotheruser = " CHai  h  Hemant ki"
+// const ReactElement = React.createElement(
+//   'a',
+//   {
+//     href: 'https://google.com',
+//     target: '_blank'
+//   },
+//   'click me | Hemant hu bhai',
+//   anotheruser
+// )
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   ReactElement
